@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Top ranked players for your model</h1>
+{% for table in tables %}
+            {{titles[loop.index]}}
+            {{ table|safe }}
+{% endfor %}
+</body>
+</html>
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+    <!--<meta charset="UTF-8">-->
+    <!--<title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+
+<!--{% for table in tables %}-->
+            <!--{{titles[loop.index]}}-->
+            <!--{{ table|safe }}-->
+<!--{% endfor %}-->
+<!--</body>-->
+<!--</html>-->
